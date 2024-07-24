@@ -30,6 +30,7 @@
             .banner {
                 width: calc(100% - 15dvh);
                 height: 86dvh;
+
                 font-family: Baddy;
                 display: flex;
                 padding: 5%;
@@ -67,6 +68,15 @@
                 bottom: 20px;
                 right: 20px;
                 border-radius: 6px 6px 21px 6px;
+            }
+
+            @media screen and (max-width:600px) {
+                .banner {
+                    width: 100%;
+                    border-radius: 0px;
+                    height: 100dvh;
+                }
+
             }
         </style>
     </head>
